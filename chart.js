@@ -1,5 +1,5 @@
-let input = document.querySelector(".form-control").innerHTML = value;
-    //some thing = "https://github.com/"+un+"/"+repo;
+
+var ctx = document.getElementById("myChart");
 var myLineChart = new Chart(ctx, {
     type: 'bar',
     data:{
