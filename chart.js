@@ -1,12 +1,12 @@
-
-var ctx = document.getElementById("myChart");
+let input = document.querySelector(".form-control").innerHTML = value;
+    //some thing = "https://github.com/"+un+"/"+repo;
 var myLineChart = new Chart(ctx, {
     type: 'bar',
     data:{
-        labels: ["PKR", "USD", "AUD", "EUR", "JPY", "SAR", "INR","QAR"],
+        labels: ["one", "two", "three", "four"],
         datasets: [{
             label:'Highest Rates',
-            data: [1000, 2222, 500, 250, 670, 620, 392, 271],
+            data: [100, 100, 100, 100],
             backgroundColor: [
                 'rgb(255, 99, 132)',
                 'rgb(54, 162, 235)',
